@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7EE; /* Parchment White */
+    color: #2E4057; /* Inkwell Blue */
+}
+
+/* Header */
+header {
+    background-color: #2E4057; /* Inkwell Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #2E4057; /* Inkwell Blue */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer button {
+    background-color: #C7B65E; /* Match the button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer button:hover {
+    background-color: #EE583F; /* Match button hover color */
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gallery Page */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+td img {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    background-color: #EE583F; /* Intensity Indigo */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #C7B65E; /* Aged Gold */
+}
+
+/* Form Styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #2E4057; /* Inkwell Blue */
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    table {
+        width: 100%;
+    }
+}

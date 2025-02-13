@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Book Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="Client3_LogoPalette1_C7B65E.png" alt="Book Haven Logo" width="150">
+        <h1>Book Haven Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="custom.html">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About Us</h2>
+        <p>Book Haven Store is a paradise for book lovers, offering a carefully curated selection of bestsellers, classics, and hidden gems. Our mission is to inspire a love for reading by providing quality books and a welcoming literary community. Explore, discover, and enjoy the magic of stories with us! </p>
+
+        <h3>Hours of Operation:</h3>
+        <p>Monday–Friday: 9 a.m. to 8 p.m.<br>Saturday: 10 a.m. to 6 p.m.<br>Sunday: 11 a.m. to 6 p.m.</p>
+
+        <h2>Contact Us</h2>
+        <form onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- New Social Media Links Section -->
+        <p>Follow us on Social Media</p>
+        <a href="#">
+            <img src="facebook.png" alt="Facebook" width="30">
+        </a>
+        <a href="#">
+            <img src="X.png" alt="X" width="30">
+        </a>
+        <a href="#">
+            <img src="Youtube.png" alt="YouTube" width="30">
+        </a>
+        <a href="#">
+            <img src="Snapchat.png" alt="Snapchat" width="30">
+        </a>
+        <!-- End of Social Media Links Section -->
+
+        <!-- Copyright and Additional Info -->
+        <p>&copy; 2025 Book Haven Bookstore </p>
+        
+        <button onclick="subscribeAlert()">Subscribe</button>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
